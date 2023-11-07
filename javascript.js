@@ -30,17 +30,20 @@ function divide(num1,num2) {
 function operate(num1, num2, operate) {
    switch (operate) {
         case 1:
-            add(num1,num2);
+            return add(num1,num2);
             break;
         case 2:
-            subtract(num1,num2);
+            return subtract(num1,num2);
             break;
         case 3:
-            multiply(num1,num2);
+            return multiply(num1,num2);
             break;
         case 4: 
-            divide(num1,num2);
+            return divide(num1,num2);
             break;
    } 
 }
+
+
+
 
