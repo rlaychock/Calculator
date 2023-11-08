@@ -1,3 +1,5 @@
+
+
 body {
     box-sizing: border-box;
     background-color: wheat;
@@ -6,6 +8,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    
 }
 
 .Calculator {
@@ -14,7 +17,7 @@ body {
     height: 700px;
     width: 500px;
     background-color: rgb(1, 88, 27);
-    border-radius: 20px;
+    border-radius: 40px;
     flex-direction: column;
     align-items: center;
 
@@ -22,16 +25,19 @@ body {
 
 .title {
     margin-top: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
 }
 
-.displayScreen {
+#displayScreen {
     background-color: rgb(255, 255, 255);
     width: 450px;
     height: 200px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 48px;
+    font-family:'Courier New', Courier, monospace ;
 }
 
 .firstRow,
@@ -62,6 +68,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-size: 20px;
     width: 110px;
+    font-family: customFont1;
 }
 
 
