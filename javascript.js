@@ -1,6 +1,6 @@
 const validOperators = ["+", "*", "/", "-"];
 let currNum1 = "";
-let result = 0;
+let result = 0.0;
 let currOperator = "";
 
 
@@ -79,10 +79,10 @@ function buttonClicked(value) {
     }  else if (validOperators.includes(value)){
         currOperator = value;
         setDisplay(currOperator);
-        result = currNum1;
+        result += parseFloat(currNum1);
         currNum1 = "";
     } else {
         if(currNum1==="") {return};
-        setDisplay(operate(parseInt(result),parseInt(currNum1),currOperator));
+        setDisplay(operate(result,parseFloat(currNum1),currOperator));
     }
 }

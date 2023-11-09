@@ -2,7 +2,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
     display: flex;
     height: 700px;
     width: 500px;
-    background-color: rgb(1, 88, 27);
+    background-color: rgb(98, 230, 138);
     border-radius: 40px;
     flex-direction: column;
     align-items: center;
@@ -52,6 +52,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-between
+    
 }
 
 #clear {
@@ -69,6 +70,7 @@ body {
     font-size: 20px;
     width: 110px;
     font-family: customFont1;
+    border: solid 2px black ;
 }
 
 
